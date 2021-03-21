@@ -78,7 +78,7 @@ h1{
     width: auto;
     min-height: 150px;
     padding: 5%;
-    box-shadow: 10px 10px 30px grey;;
+    box-shadow: 10px 10px 30px grey;
 }
 img {
     position: relative;
@@ -90,4 +90,27 @@ img {
     text-align: center;
     padding: 5%;
     margin: 2%;
+}
+#toTop {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:140px;
+	right:140px;
+	background-color:#3f72af;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+ 
+
+@keyframes bounce-5 {
+    0%   { transform: scale(1,1)    translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1) translateY(-100px); }
+    50%  { transform: scale(1,1)    translateY(0); }
+    57%  { transform: scale(1,1)    translateY(-7px); }
+    64%  { transform: scale(1,1)    translateY(0); }
+    100% { transform: scale(1,1)    translateY(0); }
 }

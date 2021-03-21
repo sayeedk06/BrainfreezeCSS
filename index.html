@@ -14,7 +14,7 @@
     
 </head>
 <body>
-<div class="root">
+<div id="top"  class="root">
     <nav navbar navbar-light bg-light> 
     <!-- <div class="navbar">
         <p class="nav-home">Sayeed's Porfolio</p>
@@ -30,8 +30,9 @@
                   </a>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link" href="#">Research</a>
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="#research">Research</a>
+                  <a class="nav-link" href="#project">Projects</a>
+                  <a class="nav-link" href="#aboutus">About Us</a>
                 </div>
               </div>
             </div>
@@ -50,7 +51,7 @@
         </div>
         
     </div>
-    <div class=" row contents">
+    <div id="research" class=" row contents">
         <div style="width: 50%;"><h1>The Research</h1><hr></div>
         <ul>
             <li> <strong>Forensic Analysis of Bangla Handwritten Letters</strong><br> 
@@ -70,7 +71,7 @@
                     <strong>Abstract:</strong>Handwriting says a lot about a person. Sometimes the information hidden there becomes the most important clues for an investigation. Traditionally detectives take help from the Graphologists.
                     However, given that handwriting analysis is mostly based on visual features, machine learning algorithms should be able to find out important features. In this research, we used a Bangla handwriting dataset to identify the age, gender, and location (district) of the writer using deep learning algorithms. To the best of our knowledge, we are the first to address these three features from Bangla handwriting. We found that age could be identified with around 87.2% accuracy, location with 65.2% accuracy, and gender with 55.8% accuracy. The main causes of the low accuracy are the complex geometric shapes of Bangla letters. Mastery of those shapes is clearly reflected by the age of the writers.</li>
         </ul>
-        <div class="row" style="margin: 50px;">
+        <div id="project" class="row" style="margin: 50px;">
         <div class="col-sm-4 projects">
             <div class="row">
                 <div class="col-sm-9">
@@ -78,7 +79,7 @@
                 </div>
             
                 <div class="col-sm-3" style="float: right; padding: 5%; margin-top: 30%;">
-                    <h2>Our Projects</h2>
+                    <h2>Our Projects</h2><hr>
                     <!-- <span style="display: block; width: 100%;">-></span> -->
                 </div>
             </div>
@@ -98,14 +99,14 @@
             </ul>
         </div>
     </div>
-    <div class="row about">
+    <div id= "aboutus" class="row about">
         <div class="row"> 
             <div class="col-12">
                 <h1>About us</h1><hr>
             </div>
         </div>
         <div class="row">
-            <div class="col-4">
+            <div class="col-sm-4">
                 <div class="card" style="width: 18rem;">
                     <img src="images/top.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -113,7 +114,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
                 <div class="card" style="width: 18rem;">
                     <img src="images/top.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -121,7 +122,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
                 <div class="card" style="width: 18rem;">
                     <img src="images/top.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -132,8 +133,10 @@
         </div>
         
 
-    </div>    
     </div>
+    <a href="#top"><button id="toTop" type="button" class="btn btn-info">&#9650</button> </a>   
+    </div>
+    
     <footer class="footer mt-auto py-3" style="background-color: #112d4e;">
         <div class="container">
           <span class="text-muted">Footer content © Brain Freeze</span>
