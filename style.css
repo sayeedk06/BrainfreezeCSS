@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Indie+Flower&family=Noto+Sans+HK&display=swap');
+body{
+    margin: 0;
+}
+h1{
+    margin-top: 0;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+/* 
+.navbar{
+    position: relative;
+    background-color: #343f56;
+    height: 50px;
+} */
+
+ /* .nav-home{
+    color: aliceblue;
+    position: relative;
+    display: inline-block;
+    margin-left: 5%;
+    width: 20%;
+    
+} */
+/* .nav-items{
+    color: aliceblue;
+    position: relative;
+    display: inline-block;
+    margin-left: 50%;
+    width: 20%;
+   
+    
+}
+.nav-item{
+    position: relative;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 10%;
+   
+    
+}  */
+.header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    z-index: -1;
+    text-align: center;
+    padding: 2%;
+    background-image: url("images/clouds.gif");
+    font-size: 150%;
+
+}
+.header .header-text{
+    font-family: 'Indie Flower', cursive;    
+    padding: 10%;
+    color: #3f72af;
+    background-color: #dbe2ef;
+    opacity: 0.9;
+    border-radius: 10%;
+    
+}
+
+.contents{
+    background-color: #f9f7f7;
+    color: #112d4e;
+    box-shadow: 10px 10px 30px grey;
+    padding: 10%;
+    margin-top: 10%;
+}
+
+.projects{
+    /* margin: 50px; */
+    background-color: #3f72af;
+    width: auto;
+    min-height: 150px;
+    padding: 5%;
+    box-shadow: 10px 10px 30px grey;;
+}
+img {
+    position: relative;
+    display: inline;
+    max-width: 100%;
+    max-height: 100%;
+}
+.about{
+    text-align: center;
+    padding: 5%;
+    margin: 2%;
+}
